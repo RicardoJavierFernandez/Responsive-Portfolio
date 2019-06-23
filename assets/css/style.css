@@ -208,21 +208,115 @@ footer{
     padding-bottom: 50px;
 }
 
-@media screen and (max-width: 980px){
-    #aboutme p{width: 500px};
-    #aboutme{width:500px};
-    #topnav{
-        position: static;
-        width: 20%};
-}
 /*
-@media screen and (max-width: 768px) and (min-width: 639px){
-    #body-about{width: 20%};
-    #aboutme p{width: 20%};
-    #topnav{width: 20%};
+@media screen and (max-width: 980px) and (min-width: 767px){
+    .wrapper  {
+        width: 768px; 
+     }
+ 
+     img{
+         width: 40px;
+         height: 40px}
+     
+     #myname{
+         margin-left: 10px;
+     }
+ 
+     #topnav {
+         width: 100%;
+         margin: 0px;
+     }
+ 
+     #topnav a{
+         display: inline;
+         font-size: 10px;
+         padding-right: 50px;
+     }
+     #aboutme{
+         margin-left: 10px;
+         width: 500px}
+ 
+     #aboutme p{
+         margin: 0;
+         size: 5px;
+     }
+   
 }
+*/
+
+@media screen and (max-width: 768px) and (min-width: 639px){
+    .wrapper  {
+        width: 768px; 
+     }
+ 
+     img{
+         width: 40px;
+         height: 40px}
+     
+     #myname{
+         margin-left: 10px;
+         font-size: 14px;
+     }
+ 
+     #topnav {
+         margin-top: 100px;
+     }
+     
+     #topnav div {
+       margin-right: 200px;
+       margin-top: -15px;
+     }
+     #topnav a{
+         margin-right: 1px;
+         font-size: 16px;
+     }
+     #aboutme, #portfolio{
+         margin: 100px;
+         width: 500px}
+ 
+     #aboutme p{
+         margin: 0;
+         font-size: 16px;
+     }
+}
+
+
 @media screen and (max-width: 640px){
-    #body-about{width: 20%};
-    #aboutme p{width: 20%};    
-    #topnav{width: 20%};
-}*/
+    .wrapper  {
+        width: 640px; 
+     }
+ 
+ 
+     img{
+         width: 40px;
+         height: 40px}
+     
+     #myname{
+         margin-left: 10px;
+     }
+ 
+     #topnav {
+         margin-top: 10px; 
+     }
+ 
+     #topnav div {
+        margin-right: 200px;
+        margin-top: -15px;
+      }
+
+     #topnav a{
+        font-size: 10px;
+        padding-right: 50px;
+    }
+
+     #aboutme, #portfolio{
+         margin-top: 100px;
+         margin-left: 80px;
+         width: 250px}
+ 
+     #aboutme p{
+         margin: 0;
+         width:200px;
+         font-size: 11px;
+     }
+}
