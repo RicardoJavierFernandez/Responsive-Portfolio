@@ -153,62 +153,79 @@ img {
     vertical-align: middle;
 }
 
-#img1 {
+#img1 p{
     position: absolute;
-    bottom: 200px;
-    left: 506px;
-    padding-left: 62px;
-    padding-right: 68.5px;
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 150px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
-#img2 {
+#img2 p{
     position: absolute;
-    bottom: 200px;
-    left: 715px;
-    padding-left: 62px;
-    padding-right: 57.5px;
+    text-align: center;
+    float: left;
+    left: 716px;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 150px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
-#img3 {
+
+#img3 p{
     position: absolute;
-    bottom: -20px;
-    left: 506px;
-    padding-left: 62px;
-    padding-right: 52px;
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 150px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
-#img4 {
+#img4 p{
     position: absolute;
-    bottom: -20px;
-    left: 715px;
-    padding-left: 29px;
-    padding-right: 31px;
+    text-align: center;
+    float: left;
+    left: 716px;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 150px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
-#img5 {
+
+#img5 p{
     position: absolute;
-    bottom: -235px;
-    left: 506px;
-    padding-left: 60px;
-    padding-right: 60px;
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 150px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
-#img6 {
+#img6 p{
     position: absolute;
-    bottom: -235px;
-    left: 715px;
-    padding-left: 27px;
-    padding-right: 26px;
+    text-align: center;
+    float: left;
+    left: 716px;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 150px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
